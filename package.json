@@ -1,0 +1,15 @@
+{
+  "name": "widow-best",
+  "version": "1.0.0",
+  "description": "Given a variable number of items, determines the denominator for a grid layout that prevents widows (an item appearing on its own row all alone)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grid",
+    "layout"
+  ],
+  "author": "Jason Chase <jchase@solidmark.com> (https://www.solidmark.com/)",
+  "license": "MIT"
+}
