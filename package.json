@@ -1,15 +1,24 @@
 {
   "name": "widow-best",
   "version": "1.0.0",
-  "description": "Given a variable number of items, determines the denominator for a grid layout that prevents widows (an item appearing on its own row all alone)",
+  "description": "Given a variable number of items and a range representing the minimum / maximum grid columns, returns the denominator for the best grid layout that prevents widows (an item appearing on its own row all alone)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "grid",
     "layout"
   ],
   "author": "Jason Chase <jchase@solidmark.com> (https://www.solidmark.com/)",
-  "license": "MIT"
+  "repository": "jchase/widow-best",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^8.4.0"
+  }
 }

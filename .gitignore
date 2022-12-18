@@ -1,0 +1,8 @@
+# npm
+node_modules
+
+# bun
+bun.lockb
+
+# misc
+package-lock.json
