@@ -29,5 +29,15 @@ describe('widowBest', () => {
     expect(layout3(6)).to.equal(3);
     expect(layout3(7)).to.equal(2);
 
+    const layout6 = widowBest([1, 6]);
+    expect(layout6(7)).to.equal(4);
+
+  });
+
+  it('should respect minimum range', () => {
+
+    const layout4WithMinimum2 = widowBest([2, 4]);
+    expect(layout4WithMinimum2(1)).to.equal(2);
+
   });
 });
